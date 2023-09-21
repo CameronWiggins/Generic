@@ -8,6 +8,13 @@ public class App {
         System.out.println(stack1.peek());
         System.out.println(stack1.pop());
         */
+
+        System.out.println(postFix("18*"));
+        System.out.println(postFix("18+"));
+        System.out.println(postFix("618*+"));
+        System.out.println(postFix("9720+**"));
+        System.out.println(postFix("111111+++++"));
+
     }
 
     public static int postFix(String expression)
